@@ -57,7 +57,7 @@ jobs:
             --download-only
           flatpak-build-bundle-args: |
             -vv
-          upload-bundles: true
+          upload-bundles: false # TODO: Changed this to false
           upload-pages-artifact: true
           upload-pages-includes: |
             CNAME
