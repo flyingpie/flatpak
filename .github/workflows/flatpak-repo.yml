@@ -55,12 +55,14 @@ jobs:
           flatpak-builder-args: |
             --install-deps-from=flathub
             --download-only
+          flatpak-build-bundle-args: |
+            -vv
           upload-bundles: true
           upload-pages-artifact: true
           upload-pages-includes: |
             CNAME
-            # default.css
-            # index.html
+            default.css
+            index.html
 
   # See "Github Pages" below
   deploy:
