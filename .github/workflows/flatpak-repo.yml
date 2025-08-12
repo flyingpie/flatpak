@@ -50,6 +50,7 @@ jobs:
           files: |
             manifests/wtq/nl.flyingpie.wtq.yml
           arch: ${{ matrix.arch }}
+          cache-key: ''
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           flatpak-builder-args: |
             --install-deps-from=flathub
