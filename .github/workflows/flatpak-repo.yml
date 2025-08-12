@@ -54,7 +54,6 @@ jobs:
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           flatpak-builder-args: |
             --install-deps-from=flathub
-            --download-only
           flatpak-build-bundle-args: |
             -vv
           upload-bundles: false # TODO: Changed this to false
