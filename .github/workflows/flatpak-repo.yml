@@ -1,9 +1,9 @@
 name: Flatter
 
-on:
+on: # TODO: Add branch trigger
   # Rebuild once a day
-  schedule:
-    - cron: "0 0 * * *"
+  # schedule:
+  #   - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,11 +14,9 @@ jobs:
       image: ghcr.io/andyholmes/flatter/gnome:master
       options: --privileged
 
-    # See "Multiple Architectures" below
     strategy:
       matrix:
-        #arch: [x86_64, aarch64]
-        arch: [x86_64]
+        arch: [x86_64, aarch64]
       fail-fast: false
       # Only one job at a time can use the shared repository cache
       max-parallel: 1
@@ -30,7 +28,6 @@ jobs:
         with:
           submodules: recursive
 
-      # See "GPG Signing" below
       - name: Setup GPG
         if: ${{ github.event_name != 'pull_request' }}
         id: gpg
