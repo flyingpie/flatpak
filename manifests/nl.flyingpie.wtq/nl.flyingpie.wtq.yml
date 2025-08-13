@@ -44,7 +44,6 @@ modules:
     build-commands:
       - dotnet publish -c Release --no-self-contained --source ./nuget-sources ./src/30-Host/Wtq.Host.Linux/Wtq.Host.Linux.csproj
       - mkdir -p ${FLATPAK_DEST}/bin
-      - rm _output/build/bin/Wtq.Host.Linux/net9.0/publish/wtq.jsonc
       - cp -Rv _output/build/bin/Wtq.Host.Linux/net9.0/publish/* ${FLATPAK_DEST}/bin
       - install -D assets/nl.flyingpie.wtq-white.svg /app/share/icons/hicolor/scalable/apps/nl.flyingpie.wtq.svg
       - install -D assets/nl.flyingpie.wtq-white.svg /app/share/icons/hicolor/scalable/apps/nl.flyingpie.wtq-white.svg
