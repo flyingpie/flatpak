@@ -56,7 +56,7 @@ jobs:
             --install-deps-from=flathub
           flatpak-build-bundle-args: |
             -vv
-          upload-bundles: false # TODO: Changed this to false
+          upload-bundles: false
           upload-pages-artifact: true
           upload-pages-includes: |
             CNAME
