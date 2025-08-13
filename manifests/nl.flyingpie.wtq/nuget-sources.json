@@ -470,17 +470,17 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/njsonschema/11.3.2/njsonschema.11.3.2.nupkg",
-        "sha512": "f9437036f2214be209c701562c32461fa586d92e339c3ec56228a09aebab01704c08cf013892a9302d17529254c70c72670a953ac98ae8f25841daa575873f62",
+        "url": "https://api.nuget.org/v3-flatcontainer/njsonschema/11.4.0/njsonschema.11.4.0.nupkg",
+        "sha512": "fa17dfe5ae076db891b8cc2d4897367f2e6974cb0505acbb20b6b980da07f42977dfe365e11c96070eeadfb8dbe3e4b1a0121a8f3f797e77549693a74a1c2fb9",
         "dest": "nuget-sources",
-        "dest-filename": "njsonschema.11.3.2.nupkg"
+        "dest-filename": "njsonschema.11.4.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/njsonschema.annotations/11.3.2/njsonschema.annotations.11.3.2.nupkg",
-        "sha512": "217a27ac0c07211d62df3c88aa5f3ba35c2acf63aabe4d8fabe8a6c715a1dd80a2cc01d5dcb87b4b252b957121cb620dcd5bec135e1be8fbff5c3d0ca3b6dada",
+        "url": "https://api.nuget.org/v3-flatcontainer/njsonschema.annotations/11.4.0/njsonschema.annotations.11.4.0.nupkg",
+        "sha512": "9e32830ce0df1d00da6ffec1bd16723f32266d2b8169edf95636100b091b2cf8545c51b6fc4af2ca6c997ff3381ddf00219a4058b956f648747ccde6b869d3a9",
         "dest": "nuget-sources",
-        "dest-filename": "njsonschema.annotations.11.3.2.nupkg"
+        "dest-filename": "njsonschema.annotations.11.4.0.nupkg"
     },
     {
         "type": "file",
@@ -512,17 +512,17 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/radzen.blazor/7.1.5/radzen.blazor.7.1.5.nupkg",
-        "sha512": "f1e172e26b03107a29902d7477d1a10c28fd6755a521791d81679e525a4d6967989ba4475f6aa78b42f9e91ffae770183c63946e2818bca468fb747aa5381d19",
+        "url": "https://api.nuget.org/v3-flatcontainer/radzen.blazor/7.1.7/radzen.blazor.7.1.7.nupkg",
+        "sha512": "88754d3bf92c097b3103420c7929db3cb2ac441eff4e786e00bf3c31caa6cfaab709cb20ec6e7dba9fede71774483f08fa6251c52e3c05a287fb90d00290a29e",
         "dest": "nuget-sources",
-        "dest-filename": "radzen.blazor.7.1.5.nupkg"
+        "dest-filename": "radzen.blazor.7.1.7.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/scalar.aspnetcore/2.6.0/scalar.aspnetcore.2.6.0.nupkg",
-        "sha512": "0ce37e8b08671927de68b8d91bb4cd11c66af1836eb7019f60db493a2d910b1157ae75117567cf05fb927c5c616172a9813c8994d38e9758b0f780e342c1831a",
+        "url": "https://api.nuget.org/v3-flatcontainer/scalar.aspnetcore/2.6.8/scalar.aspnetcore.2.6.8.nupkg",
+        "sha512": "1333384271fb21ef3b6eebe518ad3fd41cffa77695a3cb69da22e0aa8e8a15f91c28ed153db574621af85b3095fa2ea956ade22d2761383a7895ece6939c620b",
         "dest": "nuget-sources",
-        "dest-filename": "scalar.aspnetcore.2.6.0.nupkg"
+        "dest-filename": "scalar.aspnetcore.2.6.8.nupkg"
     },
     {
         "type": "file",
@@ -589,10 +589,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sonaranalyzer.csharp/10.13.0.120203/sonaranalyzer.csharp.10.13.0.120203.nupkg",
-        "sha512": "97d94a8054c649aa029a361ca98e4ec16ccd27f50400b821789b7853122578b3887d63e1db7f42e645ff9200a3cb5e189e70c7b135443c192eb36ba9c3504fa9",
+        "url": "https://api.nuget.org/v3-flatcontainer/sonaranalyzer.csharp/10.15.0.120848/sonaranalyzer.csharp.10.15.0.120848.nupkg",
+        "sha512": "60b6a2cca49b5235fdd7b6aa6a69fa587d16b72e4aff13c8a9791a8456e9b311b09ae5e1125cfe302859047ba69c30c6195be96ed0107eb4ea0fff32507e42f2",
         "dest": "nuget-sources",
-        "dest-filename": "sonaranalyzer.csharp.10.13.0.120203.nupkg"
+        "dest-filename": "sonaranalyzer.csharp.10.15.0.120848.nupkg"
     },
     {
         "type": "file",
