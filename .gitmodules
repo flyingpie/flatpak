@@ -1,0 +1,3 @@
+[submodule "manifests/nl.flyingpie.wtq/shared-modules"]
+	path = manifests/nl.flyingpie.wtq/shared-modules
+	url = https://github.com/flathub/shared-modules.git
