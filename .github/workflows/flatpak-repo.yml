@@ -1,9 +1,8 @@
 name: Flatter
 
-on: # TODO: Add branch trigger
-  # Rebuild once a day
-  # schedule:
-  #   - cron: "0 0 * * *"
+on:
+  push:
+    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:
@@ -16,7 +15,6 @@ jobs:
 
     strategy:
       matrix:
-        # arch: [x86_64, aarch64]
         arch: [x86_64]
       fail-fast: false
       # Only one job at a time can use the shared repository cache
@@ -48,7 +46,6 @@ jobs:
           files: |
             manifests/nl.flyingpie.wtq/nl.flyingpie.wtq.yml
           arch: ${{ matrix.arch }}
-          # cache-key: '' # Disables cache
           gpg-sign: ${{ steps.gpg.outputs.fingerprint }}
           flatpak-builder-args: |
             --install-deps-from=flathub
