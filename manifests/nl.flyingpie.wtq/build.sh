@@ -1,3 +1,9 @@
 #!/bin/bash
 
-org.flatpak.Builder build-dir --user --force-clean --install --repo=../../repo nl.flyingpie.wtq.yml
+flatpak-builder build-dir \
+	--force-clean \
+	--install \
+	--install-deps-from=flathub \
+	--repo=../../repo \
+	--user \
+	nl.flyingpie.wtq.yml
